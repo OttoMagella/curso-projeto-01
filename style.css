@@ -16,19 +16,28 @@ a{
 
 .background-image{
     background-image: url(imagens/bg-3.jpg);
+    position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    width: auto;
 }
 
-.text-overlay{
-
+.title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
-nav{
-    display: inline-block;
-}
-
-header{
-    display: inline-block;
+.subtitle{
+    position: absolute;
+    margin-top: 5%;
+    background-color: #0000007c;
+    padding: 10px;
+    border-bottom: 3px solid #fff;
 }
 
 img{
@@ -36,21 +45,35 @@ img{
     width: 100%;
 }
 
+.navegation{
+    background-color: #000;
+}
+
 li{
-    text-align: left;
+    color: #fff;
+    font-weight: bolder;
     list-style: none inside;
     display: inline-block;
-    background-color: #00ffff;
+    padding: 13px;
+    background-color: #0000007c;
+    margin: 5px;
+    border: 2px solid #fff
 }
 
 h1{
     font-family: 'Geologica', sans-serif;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 70px;
+    margin: 350px 0 0;
+    text-align: center;
+    text-shadow: #000 0 2px;
 }
 
 h2{
-
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    padding: 0;
 }
 
 /* CONTEÚDO */
